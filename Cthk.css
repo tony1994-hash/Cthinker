@@ -1,0 +1,219 @@
+/*My first coding job*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap');
+*{
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  height:100vh;
+  width:100vw;
+  font-family: 'Lato', sans-serif;
+  overflow:hidden;
+  font-weight:700;
+  display:flex;
+  background-image:linear-gradient(rgba(80, 84, 87, 0.5),rgba(34, 32, 32, 0.5),rgba(51, 184, 245, 0.5)),url('images/codeth.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+  justify-content:center;
+  
+}
+.element{
+  text-align:left;
+}
+.element ul {
+ 
+  display:inline-flex;
+  list-style:none;
+
+ }
+ .element ul li  {
+  display:inline-flex;
+  list-style:none;
+  margin:0 20px;
+  position: relative;
+ }
+ .element ul li a {
+   text-decoration:none;
+   color:rgb(12, 3, 3);
+ }
+ .element ul li:after  {
+  content:'';
+  height:3px;
+  width:0;
+  background:rgb(88, 88, 219);
+  position:absolute;
+  left:0;
+  bottom: +5px;
+  transition: 0.5s;
+} 
+.element ul li:hover::after{
+  width:60%;
+}
+ nav > ul > li {
+   display:inline-block;
+   list-style: none;
+   margin: 0 5px 0 5px;
+     }
+     nav > ul > li > a {
+       color:rgb(246, 246, 236);
+       text-decoration: none;
+          } 
+
+         
+.element ul {
+ 
+ display:inline-flex;
+ list-style:none;
+}
+.element ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+nav > ul > li {
+  display:inline-block;
+  list-style: none;
+  margin: 0 5px 0 5px;
+    }
+    nav > ul > li > a {
+      color:rgb(246, 246, 236);
+    
+         } 
+         .sub-menu-1 {
+          display: none;
+      } 
+.element  ul li:hover .sub-menu-1
+{
+    display:block;
+    position:absolute;
+    background: rgb(37, 37, 39);
+    margin-left: 15px;
+    margin-right: -15px;
+    margin-top: auto;
+}
+.element ul li:hover .sub-menu-1 ul
+
+{
+    display:block;
+    margin:10px;
+}
+ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px dotted grey;
+    background: transparent;
+    border-radius: 0;
+    
+}
+.element ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.element ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:turquoise; 
+    cursor: pointer;
+}
+
+
+
+
+.login-div {
+  width:430px;
+  height:600px;
+  border-radius:50px;
+  padding: 60px 35px 35px 35px;
+ border-radius: 33px;
+background: #373a3a;
+box-shadow:  5px 5px 10px #1071a2,
+             -5px -5px 10px #1699db;
+}
+.logo {
+  width:100px;
+  height:100px;
+  background: url("images/freethinker.png");
+  border-radius:  95px;
+  margin:0 auto;
+border-radius: 85%;
+box-shadow:  5px 5px 10px #106d9c,
+             -5px -5px 10px #169de0;
+}
+
+.title {
+  text-align:center;
+  font-size: 29px;
+  padding-top:24px;
+  letter-spacing:0.5px;
+  color: #fff;
+  
+}
+.sub-title {
+  text-align:center;
+  font-size:15px;
+  padding-top:7px;
+  letter-spacing:3px;
+  color: #fff;
+}
+.fields {
+  padding:75px 5px 5px 5px;
+  width:100%;
+  border-radius: 33px;
+}
+  
+.fields input {
+  border:none;
+  outline:none;
+  background:none;
+  font-size:18px;
+  padding:20px 10px 20px 5px;
+
+  
+}
+.username,
+.password {
+  margin-bottom:30px;
+  border-radius:25px;
+  border-radius: 33px;
+background: #77d0fd;
+box-shadow:  5px 5px 10px #1071a2,
+             -5px -5px 10px #1699db;
+   text-decoration: rgb(245, 238, 238);
+
+}
+.fields svg {
+  height:25px;
+  margin:0 10px -3px 25px;
+}
+.signing-button {
+  border:none;
+  cursor:pointer;
+  outline:none;
+  height:60px;
+  width:100%;
+  font-size:20px;
+  border-radius:30px;
+  font-weight:700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align:center;
+background: linear-gradient(145deg, #c18fd8, #341d3f);
+
+  transition: all 0.5s ;
+}
+.signing-button:hover {
+  background-color:#d2e9e2;
+}
+.signing-button:active {
+  background-color: #e3fce8;
+}
+.link {
+  padding-top:20px;
+  text-align:center;
+}
+.link a {
+  text-decoration:none;
+  color:rgb(250, 243, 243);
+  font-size:15px;
+}
